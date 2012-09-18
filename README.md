@@ -5,8 +5,7 @@
 	var test = new Piper({
 		source: 'http://cachefly.cachefly.net/100mb.test', // SOURCE FILE
 		target: 'http://localhost:8080/debug', // TARGET ENDPOINT
-		name: 'upload', // NAME OF THE UPLOAD FIELD (defaults to file)
-		debug: function(msg) {} // debug log caller (optional)
+		name: 'upload' // NAME OF THE UPLOAD FIELD (defaults to file)
 	});
 
 
