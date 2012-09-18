@@ -1,0 +1,16 @@
+{
+  "author": "Jean Jacques Warmerdam",
+  "name": "piper",
+  "description": "Pipe files or webpages from one url to the other",
+  "version": "0.0.1",
+  "repository": {
+    "url": "https://github.com/koelkast/piper"
+  },
+  "main": "./index.js",
+  "dependencies": { "request":"~2.11.5", "form-data": "~0.0.4" },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
